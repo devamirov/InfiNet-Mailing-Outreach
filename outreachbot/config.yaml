@@ -1,0 +1,95 @@
+# InfiNet outreach – edit promo and copy here (no code changes needed)
+
+# Promo / offer text (used in subject and body)
+promo:
+  headline: "Professional Web, App, Automation & Security Solutions — Made Affordable"
+  # Short line for subject or first sentence
+  tagline: "Professional web, mobile app, automation & security – at a price that fits."
+
+# Main site and landing page
+main_site: "https://infinet.services"
+landing_page: "https://infinetmail.services"
+
+# Unsubscribe line (plain text)
+opt_out_line: "If you'd prefer I don't contact you again, just reply 'stop'."
+
+# Test email – who receives a sample (send_test command)
+test_email: "zogzkillerz@gmail.com"
+
+# Test SMS – single number for send_test_sms command (E.164, e.g. +17473508060)
+test_phone: "+17473508060"
+
+# Locations: city name, country (for Places text search)
+locations:
+  Lebanon:
+    - Beirut
+    - Jounieh
+    - Saida
+    - Tripoli
+    - Zahle
+  UAE:
+    - Dubai
+    - Abu Dhabi
+    - Sharjah
+  Canada:
+    - Toronto
+    - Vancouver
+    - Montreal
+  Australia:
+    - Sydney
+    - Melbourne
+    - Brisbane
+
+# Industries / business types (for search queries)
+industries:
+  - clothing store
+  - fashion boutique
+  - shoe store
+  - electronics store
+  - computer store
+  - phone store
+  - restaurant
+  - cafe
+  - bakery
+  - salon
+  - barber
+  - clinic
+  - dentist
+  - gym
+  - real estate agency
+  - car rental
+  - furniture store
+  - jewelry store
+  - cosmetics store
+  - perfume shop
+  - gift shop
+  - hotel
+  - travel agency
+  - event planner
+  - cleaning company
+  - maintenance service
+  - construction company
+  - interior design company
+
+# Sending limits (warmup = day 1, 2, 3... from first run)
+warmup_daily_caps:
+  1: 5
+  2: 8
+  3: 10
+  4: 12
+  5: 15
+  6: 18
+  default: 20
+
+# Delay between emails (seconds)
+delay_between_emails_min: 12
+delay_between_emails_max: 35
+
+# Max emails per minute
+max_emails_per_minute: 3
+
+# SMS (SendPulse) – uses phone from leads (Google Places)
+sms:
+  sender: "InfiNet"   # alphanumeric, max 11 chars
+  body: "Need a website, app, or automation for your business? InfiNet delivers professional solutions at affordable prices. View packages: https://infinetmail.services"
+  daily_cap: 30       # max SMS per day
