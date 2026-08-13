@@ -5,8 +5,8 @@
 <h1 align="center">InfiNet Mail</h1>
 
 **Type:** Product UI + tooling  
-**Stack:** HTML/CSS landing, Node/Python outreach tooling, cPanel deploy scripts  
+**Stack:** Node/Python outreach tooling, cPanel control panel  
 ## Overview
-InfiNet Mail product site and supporting outreach/deploy tooling for email services.
+InfiNet Mail outreach tooling and control panel for email campaigns.
 
 Secrets and private keys are excluded from this repository.
